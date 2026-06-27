@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import RoleSelector from './components/RoleSelector';
-import GuestForm from './components/GuestForm';
-import OrderTimeline from './components/OrderTimeline';
-import StaffDashboard from './components/StaffDashboard';
-import AdminDashboard from './components/AdminDashboard';
+import RoleSelector from './RoleSelector';
+import GuestForm from './GuestForm';
+import OrderTimeline from './OrderTimeline';
+import StaffDashboard from './StaffDashboard';
+import AdminDashboard from './AdminDashboard';
 import { Phone, Mail, MapPin, ClipboardList, Clock, User, Briefcase, ShieldAlert } from 'lucide-react';
 
 function SystemGateway({ onNavigate }) {
